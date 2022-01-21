@@ -1,10 +1,11 @@
 import GlobalStyle from "./globalStyle";
+import SinglePagePresentational from "./Page/presentational";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>teste1</h1>
+      <SinglePagePresentational />
     </>
   );
 }
